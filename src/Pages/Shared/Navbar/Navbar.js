@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-white py-4">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand text-uppercase fw-bold" href="#">
+            bongobondhu
           </a>
           <button
             class="navbar-toggler"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link px-3" aria-current="page" href="#">
                   Home
                 </a>
               </li>
@@ -42,8 +42,8 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <button>Login</button>
-            <button>Register</button>
+            <button className="btn btn-success me-2">Login</button>
+            <button className="btn btn-info text-white">Register</button>
           </div>
         </div>
       </nav>
