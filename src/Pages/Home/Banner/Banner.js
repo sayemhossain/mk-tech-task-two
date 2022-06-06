@@ -2,6 +2,7 @@ import React from "react";
 import banner1 from "../../../img/banner/banner1.webp";
 import banner4 from "../../../img/banner/banner4.jpg";
 import banner3 from "../../../img/banner/banner3.jpg";
+import "./Banner.css";
 
 const Banner = () => {
   return (
@@ -13,28 +14,13 @@ const Banner = () => {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src={banner4}
-              style={{ maxHeight: "100vh" }}
-              class="d-block w-100 img-fluid "
-              alt="..."
-            />
+            <img src={banner4} class="d-block w-100 img-fluid " alt="..." />
           </div>
           <div class="carousel-item">
-            <img
-              src={banner3}
-              class="d-block w-100 img-fluid"
-              style={{ maxHeight: "100vh" }}
-              alt="..."
-            />
+            <img src={banner3} class="d-block w-100 img-fluid" alt="..." />
           </div>
           <div class="carousel-item">
-            <img
-              src={banner1}
-              class="d-block w-100 img-fluid"
-              style={{ maxHeight: "100vh" }}
-              alt="..."
-            />
+            <img src={banner1} class="d-block w-100 img-fluid" alt="..." />
           </div>
         </div>
         <button

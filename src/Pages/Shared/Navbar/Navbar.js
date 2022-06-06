@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg bg-light py-4">
         <div class="container">
           <a class="navbar-brand text-uppercase fw-bold text-danger" href="#">
-            bongobondhu
+            Issue Tracker
           </a>
           <button
             class="navbar-toggler"

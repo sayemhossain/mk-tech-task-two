@@ -20,7 +20,7 @@ const About = () => {
               <div className="col-lg-6">
                 <img className="img-fluid" src={about} alt="" />
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-3 mt-lg-0">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Perferendis repellat repudiandae quod voluptas sint explicabo
