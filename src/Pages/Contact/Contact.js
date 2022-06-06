@@ -6,12 +6,16 @@ const Contact = () => {
     <div className="container">
       <div className="py-3 pb-5">
         <div className="text-center py-5">
-          <h2>Contact us</h2>
-          <hr className="w-25 mx-auto" />
+          <h2>Interested in becoming a client?</h2>
+          <hr className="w-50 mx-auto" />
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <img className="img-fuild w-100" src={contact} alt="" />
+            <img className="img-fuild w-75" src={contact} alt="" />
+            <p>
+              We serve our clients from 14 offices on 3 continents around the
+              world. We are available 24/7 and look forward to hearing from you
+            </p>
           </div>
           <div className="col-lg-6">
             <form class="row g-3">
