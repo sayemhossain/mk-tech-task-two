@@ -3,7 +3,7 @@ import logo from "../../../img/logo.png";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="pt-5">
       <footer class="text-center text-lg-start bg-dark text-white pt-5">
         <section class="">
           <div class="container text-center text-md-start mt-5">
